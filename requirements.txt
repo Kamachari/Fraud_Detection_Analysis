@@ -1,0 +1,26 @@
+### 1. The `requirements.txt` File
+Create a file named `requirements.txt` in your project folder and paste the following content:
+
+```text
+# Data Manipulation
+pandas
+numpy
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+```
+
+---
+
+### 2. Installation Syntax
+To install these libraries, open your terminal (Command Prompt, PowerShell, or Terminal) and navigate to your project folder. Use one of the following methods:
+
+#### **Standard Installation**
+If you just want to install them to your global Python environment:
+```bash
+pip install -r requirements.txt
